@@ -21,6 +21,7 @@ type SourceModel interface {
 		KinesisFirehoseSourceModel |
 		LogAnalysisSourceModel |
 		LogStashSourceModel |
+		OpenTelemetryLogsSourceModel |
 		OpenTelemetryTracesSourceModel |
 		PrometheusRemoteWriteSourceModel |
 		S3SourceModel |
